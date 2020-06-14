@@ -1,0 +1,23 @@
+$kik-brown: rgba(100, 86, 72, 1);
+$kik-red: rgba(123, 50, 54, 1);
+$kik-sand: rgba(167, 147, 124, 1);
+$kik-white: rgba(248, 247, 245, 1);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: $kik-white;
+}
+
+header {
+  background-color: $kik-brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
