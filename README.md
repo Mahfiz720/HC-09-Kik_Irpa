@@ -28,6 +28,10 @@ This is an intensive 7-month training course resulting from an internship in a c
 * index.hmtl in French and two more index for additionnal languages: NL, EN (index-nl.html / index-en.html)
 * css folder: containing style.css compiled from style.scss and style.css.map by [Live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
 * img folder: containing a new-designed logo, and pictures from [KIK-IRPA asbl](www.kikirpa.be/EN/) &copy;
+
+*Objectives*
+* Upgrade knowledge in HTML and CSS
+* Use the previous exercise to achieve this one better and faster
   
 *Progression*
 ### Work in progress
