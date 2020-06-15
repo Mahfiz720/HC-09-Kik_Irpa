@@ -417,7 +417,7 @@ article > p > img {
 
 .copyrights {
   color: #f8f7f5;
-  padding-right: 35vw;
+  padding-right: 45vw;
   margin: 1vh 0;
   font-family: Open Sans;
   font-size: 0.6rem;
@@ -432,6 +432,11 @@ article > p > img {
   font-size: 0.4rem;
   padding-left: 5vw;
   margin: 1vh 0;
+}
+
+.credentials > p > a > img {
+  width: 5vw;
+  height: 5vw;
 }
 
 @media screen and (min-width: 480px) {
