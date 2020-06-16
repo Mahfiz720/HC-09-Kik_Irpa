@@ -34,11 +34,12 @@ This is an intensive 7-month training course resulting from an internship in a c
 * Use the previous exercise to achieve this one better and faster
   
 *Progression*
-### Work in progress
+### Main work completed
+### Bonus pending
 
 #### Steps to achievement :
 * Mobile-first HTML/CSS layout **DONE**
-* Responsive design *In progress*
+* Responsive design **DONE**
 * Multi-language support **DONE**
 
 #### Bonus achievement :
