@@ -40,9 +40,9 @@
         <img src="/img/logo-kikirpa.png" alt="logo">
       </div>
       <div class="lang">
-        <button class="nl"><a href="/index-nl.html">NL</a></button>
-        <button class="fr"><a href="/index.html">FR</a></button>
-        <button class="en"><a href="/index-en.html">EN</a></button>
+        <button type="button" name="nl" onclick="window.location.href='/index-nl.html'">NL</button>
+        <button type="button" name="fr" onclick="window.location.href='/index.html'">FR</button>
+        <button type="button" name="en" onclick="window.location.href='/index-en.html'">EN</button>
       </div>
     </div>
     <nav>
@@ -69,7 +69,7 @@
     </nav>
   </header>
   <main>
-    <button class="to-top"><a href="#top-anchor"><i class="fas fa-fast-backward"></i></a></button>
+    <button type="button" class="to-top" onclick="window.location.href='#top-anchor'"><i class="fas fa-fast-backward"></i></button>
     <section class="institute">
       <article>
         <h2>Royal Institute for Cultural Heritage</h2>
@@ -81,8 +81,8 @@
       </article>
     </section>
     <section class="agenda">
+      <h2>Agenda</h2>
       <article>
-        <h2>Agenda</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto, repellat sit quam veniam est dolorum in odit soluta ut incidunt reiciendis cum optio. Iure labore doloribus corporis sequi commodi velit eveniet harum qui, quis explicabo reiciendis, ipsum consectetur id voluptatum. Repellendus ut laudantium voluptas ad repellat ipsum nihil dicta.
         </p>
@@ -94,13 +94,13 @@
         <h3>New book: Formes du Salut</h3>
         <div class="content">
           <img src="https://picsum.photos/id/163/150" alt="news picture">Due to the health situation, the exhibition "Forms of Salvation" devoted to a series of religious works and their restoration had to be postponed until Spring 2022. However, the work done by the teams will be included in a publication that comes out this week. Through this book, the Musée L wishes to highlight the conservation-restoration work carried out at IRPA thanks to the support of the Baillet Latour Fund. Beyond its practical usefulness, which guarantees the salvation, durability and transmission of this heritage to future generations, this intervention has made it possible to inform about the uses and history of the sculptures, often modified according to the circumstances of their exhibition. The authors and co-curators of the exhibition, our colleagues Emmanuelle Mercier and Erika Rabelo (polychrome wood sculpture workshop) and Matthieu Somon (UCLouvain), thus passionately deliver their expert and meticulous analyses of these works from the end of the medieval period.<br/>The book is on sale at the reception desk of the Museum L or online, links below.
-          </p>
         </div>
         <div class="upvote">
           <p><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;100&nbsp;&nbsp;</p>
-          <button><a href="https://pul.uclouvain.be/book/?gcoi=29303100148070">Buy online</a></button>
+          <button type="button" name="link-news" onclick="window.location.href='https://pul.uclouvain.be/book/?gcoi=29303100148070'">Buy online<button/>
         </div>
       </article>
+      <h2>Video</h2>
       <article class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/u2XNbTvHFd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </article>

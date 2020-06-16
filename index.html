@@ -40,9 +40,9 @@
         <img src="/img/logo-kikirpa.png" alt="logo">
       </div>
       <div class="lang">
-        <button class="nl"><a href="/index-nl.html">NL</a></button>
-        <button class="fr"><a href="/index.html">FR</a></button>
-        <button class="en"><a href="/index-en.html">EN</a></button>
+        <button type="button" name="nl" onclick="window.location.href='/index-nl.html'">NL</button>
+        <button type="button" name="fr" onclick="window.location.href='/index.html'">FR</button>
+        <button type="button" name="en" onclick="window.location.href='/index-en.html'">EN</button>
       </div>
     </div>
     <nav>
@@ -69,10 +69,10 @@
     </nav>
   </header>
   <main>
-    <button class="to-top"><a href="#top-anchor"><i class="fas fa-fast-backward"></i></a></button>
+    <button type="button" class="to-top" onclick="window.location.href='#top-anchor'"><i class="fas fa-fast-backward"></i></button>
     <section class="institute">
+      <h2>L'Institut royal du Patrimoine artistique</h2>
       <article>
-        <h2>L'Institut royal du Patrimoine artistique</h2>
         <blockquote>
           <a href="https://livre.fnac.com/a1837459/Pour-les-Nuls-Histoire-de-l-Art-Pour-les-nuls-Jean-Jacques-Breton" target="blank">"L'art est beau quand la main, la tête et le coeur travaillent ensemble."</a>
         </blockquote>
@@ -82,8 +82,8 @@
       </article>
     </section>
     <section class="agenda">
+      <h2>L'agenda</h2>
       <article>
-        <h2>L'agenda</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto, repellat sit quam veniam est dolorum in odit soluta ut incidunt reiciendis cum optio. Iure labore doloribus corporis sequi commodi velit eveniet harum qui, quis explicabo reiciendis, ipsum consectetur id voluptatum. Repellendus ut laudantium voluptas ad repellat ipsum nihil dicta.
         </p>
@@ -95,15 +95,15 @@
         <h3>Nouveau livre : Formes du Salut</h3>
         <div class="content">
           <img src="https://picsum.photos/id/163/150" alt="news picture">En raison de la situation sanitaire, l’exposition "Formes du salut" consacrée à une série d’œuvres religieuses et leur restauration a dû être reportée au Printemps 2022. Mais le travail fourni par les équipes trouve place dans une publication qui sort cette semaine. À travers ce livre, le Musée L souhaite mettre en valeur le travail de conservation-restauration mené à l’IRPA grâce au soutien du Fonds Baillet Latour. Au-delà de son utilité pratique qui garantit le salut, la pérennité et la transmission de ce patrimoine aux générations futures, cette intervention a permis de renseigner les usages et l’historique des sculptures, souvent remaniées au gré des circonstances de leur exposition. Les auteurs et co-commissaires de l’exposition, nos collègues Emmanuelle Mercier et Erika Rabelo (atelier de sculptures en bois polychromé) et Matthieu Somon (UCLouvain), livrent ainsi avec passion leurs analyses expertes et minutieuses de ces œuvres de la fin de l’époque médiévale.<br/>Le livre est en vente à l’accueil du Musée L ou en ligne, le lien se trouve ci-dessous.
-          </p>
         </div>
         <div class="upvote">
           <p><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;100&nbsp;&nbsp;</p>
-          <button><a href="https://pul.uclouvain.be/book/?gcoi=29303100148070">Acheter en ligne</a></button>
+          <button type="button" name="link-news" onclick="window.location.href='https://pul.uclouvain.be/book/?gcoi=29303100148070'">Acheter en ligne</button>
         </div>
       </article>
       <article class="video">
-        <iframe width="375" height="250" src="https://www.youtube.com/embed/u2XNbTvHFd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>Vidéo</h2>
+        <iframe width="375" height="250" src="https://www.youtube.com/embed/u2XNbTvHFd0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </article>
       <article class="associations">
         <h2>D'autres associations</h2>
