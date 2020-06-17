@@ -1,6 +1,7 @@
 # Learning Environment - Exercice 3
 # KIK-IRPA suggestion for a new website
-  
+
+# Published on this [GitHub page](https://nicode-be.github.io/kikirpa-asbl/)
 
 *Start Date*
 ### 13/06/2020
