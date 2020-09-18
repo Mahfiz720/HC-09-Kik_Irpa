@@ -8,16 +8,11 @@
   
 
 *Due date*
-### 19/06/20200
+### 19/06/2020
   
 
 *Took place in*
 ### BeCode Charleroi @ A6K-E6K
-  
-
-*Collaborator*
-[Nicolas Denoël](https://github.com/nicode-be/)  
-  
 
 *Environment*
 Work done in the environment of the web-developer training, organized by BeCode.  
