@@ -1,5 +1,4 @@
-# Learning Environment - Exercice 3
-# KIK-IRPA suggestion for a new website
+# KIK-IRPA 
   
 ### Published on this [GitHub page](https://nicode-be.github.io/kikirpa-asbl/)
 
